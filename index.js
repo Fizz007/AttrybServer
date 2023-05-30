@@ -1,9 +1,9 @@
 const express = require('express');
 const cors = require('cors');
-require('../Server/connectDB')
-const userRoute = require('../Server/routes/userRoute')
-const carRoute = require('../Server/routes/carRoute')
-const formModel = require('../Server/modal/form')
+require('./connectDB')
+const userRoute = require('./routes/userRoute')
+const carRoute = require('./routes/carRoute')
+const formModel = require('./modal/form')
 const app = express();
 
 app.use(cors());
